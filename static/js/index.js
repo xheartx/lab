@@ -70,7 +70,7 @@ var zNodes =[
     },
 
     {
-        name: "javascript", open: true,
+        name: "javascript", open: false,
         children: [
             {name:"可拖拽改变大小对话框", url:"javascript/drag-change-size.html"},
             {name:"拖拽交换图片位置", url:"javascript/drag-photo.html"},
