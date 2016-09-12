@@ -48,7 +48,8 @@ var zNodes =[
     {
         name: "practice", open: true,
         children: [
-            {name: "qq幻灯片", url: "practice/qqlide/index.html"}
+            {name: "qq幻灯片", url: "practice/qqlide/index.html"},
+            {name: "360°全景图片", url: "practice/360°/index.html"}
         ]
     },
 
