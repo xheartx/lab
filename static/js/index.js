@@ -1,5 +1,5 @@
 /**
-* @fileOverview 
+* @fileOverview
 * @authors @Bubblings
 */
 
@@ -26,7 +26,7 @@ var zNodes =[
             {name: "js版flappy bird", url: "game/flappyBird/index.html"}
         ]
     },
-    
+
     {
         name: "app", open: true,
         children: [
@@ -35,13 +35,20 @@ var zNodes =[
             {name: "佛音", url: "app/Foyin/index.html"}
         ]
     },
-    
+
     {
         name: "web", open: true,
         children: [
             {name: "剑灵专题页", url: "web/BNS-special/index.html"},
             {name: "100du.com", url: "web/100du/index.html"},
             {name: "现代浏览器博物馆", url: "web/browerMuseum/index.html"}
+        ]
+    },
+
+    {
+        name: "practice", open: true,
+        children: [
+            {name: "qq幻灯片", url: "practice/qqlide/index.html"}
         ]
     },
 
@@ -94,8 +101,8 @@ $(function(){
         var urlHash = url.substring(url.indexOf('lab'),url.indexOf('.htm')).replace('lab/','');
         window.location.href = b.substring(0, b.indexOf('#')) + '#' + urlHash.replace('/', '_');
     });
-    
-    
+
+
     setTimeout(function(){
         $('.tips').slideUp();
     },4000);
@@ -107,7 +114,7 @@ $(function(){
         if ($this.hasClass('open-aside')) {
             main.removeClass('main-noaside');
             aside.removeClass('noaside').find('.nav').show();
-            $this.removeClass('open-aside');            
+            $this.removeClass('open-aside');
         } else {
             main.addClass('main-noaside');
             aside.addClass('noaside').find('.nav').hide();
