@@ -52,8 +52,7 @@ var zNodes =[
             {name: "360°全景图片", url: "practice/360°/index.html"},
             {name: "倒计时效果", url: "practice/countdown/index.html"},
             {name: "放大镜效果", url: "practice/magnifier/index.html"},
-            {name: "3D云标签效果", url: "practice/yuntage/index.html"},
-            {name: "瀑布流效果", url: "practice/pubuliu/index.html"}
+            {name: "3D云标签效果", url: "practice/yuntage/index.html"}
         ]
     },
 
