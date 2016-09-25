@@ -1,0 +1,154 @@
+body {
+				background: #fff;
+			}
+			ul, li, p, h2 {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.concent {
+				width: 600px;
+				height: 600px;
+				margin: auto;
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+			}
+			#tagsList {
+				position: relative;
+				width: 600px;
+				height: 600px;
+			}
+			#tagsList img {
+				display: block;
+				width: 50px;
+				height: 50px;
+				transition: width .5s, height .5s;
+				-moz-transition: width .5s, height .5s;
+				-webkit-transition: width .5s, height .5s;
+				margin: 0 auto;
+				margin-bottom: 5px;
+				padding: 4px;
+				border: 2px solid #ccc;
+			}
+			#tagsList li {
+				position: absolute;
+				width: 100px;
+				height: 100px;
+			}
+			.backBox,
+			#tagsList li span,
+			#tagsList li .text{
+				display: none;
+			}
+			#tagsList li a {
+				display: block;
+				width: 100%;
+				font-family: Microsoft YaHei;
+				color: #333;
+				font-weight: bold;
+				text-decoration: none;
+				text-align: center;
+				font-size: 12px !important;
+				font-weight: normal;
+			}
+			#tagsList li:hover a {
+				font-weight: bold;
+			}
+			#tagsList li:hover img {
+				width: 60px;
+				height: 60px;
+				transition: border linear .1s, box-shadow linear .2s, width 1s, height 1s;
+				-moz-transition: border linear .1s, -moz-box-shadow linear .2s, width 1s, height 1s;
+				-webkit-transition: border linear .1s, -webkit-box-shadow linear .2s, width 1s, height 1s;
+				outline: none;
+				border-color: rgba(241, 39, 242, .9);
+				box-shadow: 0 0 8px rgba(241, 39, 232, .5);
+				-moz-box-shadow: 0 0 8px rgba(241, 39, 232, .5);
+				-webkit-box-shadow: 0 0 8px rgba(241, 39, 232, 3);
+			}
+
+			#tagsList .active {
+				display: block;
+				z-index: 2000 !important;
+				opacity: 1 !important;
+				width: 300px;
+				height: 130px;
+				padding-top: 24px;
+				background: #FFFFFF;
+				text-align: center;
+				-moz-transition: .5s;
+				-webkit-transition: .5s;
+				transition: .5s;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				border-radius: 5px;
+				-moz-box-shadow: 0 0 8px gray;
+				-webkit-box-shadow: 0 0 8px gray;
+				box-shadow: 0 0 8px gray;
+			}
+			#tagsList .active a {
+				float: left;
+				width: 40%;
+			}
+			#tagsList .active img {
+				width: 60px;
+				height: 60px;
+				border: 2px solid #ccc;
+			}
+			#tagsList .active:hover img {
+				border: 2px solid #ccc;
+				box-shadow: none;
+				-moz-box-shadow: none;
+				-webkit-box-shadow: none;
+			}
+			#tagsList .active:hover a {
+				font-weight: normal;
+			}
+			#tagsList .active .text {
+				text-align: justify;
+				overflow: hidden;
+				width: 52%;
+				height: 100%;
+				padding-right: 8%;
+				float: right;
+			}
+			#tagsList .active .text h2 {
+				font-size: 16px;
+				color: #333;
+				margin: 2px 0 5px 0;
+			}
+			#tagsList .active .text p {
+				font-size: 14px;
+				line-height: 21px;
+				color: #666;
+			}
+			#tagsList .active span {
+				font-size: 14px;
+				color: #000000;
+				position: absolute;
+				top: 8px;
+				right: 8px;
+				opacity: 0.2;
+				text-shadow: 0 1px 0 #fff;
+				font-weight: bold;
+			}
+			#tagsList span:hover {
+				cursor: pointer;
+				opacity: .8;
+				-moz-transition: .5s;
+				-webkit-transition: .5s;
+				transition: .5s;
+			}
+			.backBox {
+				position: fixed;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background-color: #000;
+				opacity: 0.3;
+				z-index: 100;
+			}
