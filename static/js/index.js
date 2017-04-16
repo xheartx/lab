@@ -30,6 +30,7 @@ var zNodes =[
     {
         name: "app", open: true,
         children: [
+            {name: "elm案例", url: "app/sell/index.html"},
             {name: "aimi社交软件", url: "app/aimi/index.html"},
             {name: "安吉幼儿教育", url: "app/AnJi/index.html"},
             {name: "佛音", url: "app/Foyin/index.html"}
@@ -48,6 +49,7 @@ var zNodes =[
     {
         name: "practice", open: true,
         children: [
+            {name: "canvas-时钟", url: "practice/canvas-time/index.html"},
             {name: "qq幻灯片", url: "practice/qqlide/index.html"},
             {name: "360°全景图片", url: "practice/360°/index.html"},
             {name: "倒计时效果", url: "practice/countdown/index.html"},
